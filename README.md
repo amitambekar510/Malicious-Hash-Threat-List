@@ -11,7 +11,7 @@ Security teams can use these lists to:
 - Automate IOC ingestion with EDR or XDR solutions
 
 📢 Update Notice  
-• Date: **2026-03-13 21:05 IST** 
+• Date: **2026-03-14 11:15 IST** 
 
 • Total Malicious Hashes:
 
