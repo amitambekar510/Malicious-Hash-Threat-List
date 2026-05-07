@@ -11,7 +11,7 @@ Security teams can use these lists to:
 - Automate IOC ingestion with EDR or XDR solutions
 
 📢 Update Notice  
-• Date: **2026-05-06 13:10 IST** 
+• Date: **2026-05-07 11:42 IST** 
 
 • Total Malicious Hashes:
 
@@ -19,7 +19,7 @@ Security teams can use these lists to:
   
   SHA1: **583** (Each File 1000)
   
-  SHA256: **80532** (Each File 60000)
+  SHA256: **80533** (Each File 60000)
 
 ## 📁 Repository Structure  
 /
