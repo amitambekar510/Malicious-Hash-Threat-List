@@ -15,11 +15,11 @@ Security teams can use these lists to:
 
 • Total Malicious Hashes:
 
-  MD5: **4091** (Each File 3000)
+  MD5: **4092** (Each File 3000)
   
-  SHA1: **598** (Each File 1000)
+  SHA1: **599** (Each File 1000)
   
-  SHA256: **80595** (Each File 60000)
+  SHA256: **80596** (Each File 60000)
 
 ## 📁 Repository Structure  
 /
