@@ -62,16 +62,16 @@
 
 ```mermaid
 flowchart TB
-    subgraph Sources["🔍 Threat Intelligence Sources"]
-        S1[MalwareBazaar Recent\n(Latest 100 samples via API)]
-        S2[MalwareBazaar by Type\n(PE executables, DLLs, scripts)]
+    subgraph Sources["Threat Intelligence Sources"]
+        S1["MalwareBazaar Recent\nLatest 100 samples via API"]
+        S2["MalwareBazaar by Type\nPE executables DLLs scripts"]
     end
 
-    Collect["🤖 Automated Collection\n(Every 12h via GitHub Actions)"]
-    Validate["✅ Multi-Source Validation\nVT ≥3 detections · MalwareBazaar confirmed"]
-    Dedup["🚫 Zero-Duplicate Guarantee\nBloom Filter + Git History + Cross-Type"]
-    Repos["📦 Partitioned by Type\nSHA256: 60K/file · MD5: 3K/file · SHA1: 1K/file"]
-    Deploy["🚀 Direct Tool Integration\nCrowdStrike · SentinelOne · FortiGate · Splunk · MDE · ELK · MISP"]
+    Collect["Automated Collection\nEvery 12h via GitHub Actions"]
+    Validate["Multi-Source Validation\nVT 3+ MalwareBazaar confirmed"]
+    Dedup["Zero-Duplicate Guarantee\nBloom Filter + Git History + Cross-Type"]
+    Repos["Partitioned by Type\nSHA256: 60K/file MD5: 3K/file SHA1: 1K/file"]
+    Deploy["Direct Tool Integration\nCrowdStrike SentinelOne FortiGate Splunk MDE ELK MISP"]
 
     Sources --> Collect --> Validate --> Dedup --> Repos --> Deploy
 
