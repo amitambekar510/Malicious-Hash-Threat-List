@@ -1,16 +1,8 @@
 <div align="center">
 
-```
-███╗   ███╗██╗███╗   ██╗██╗███████╗████████╗ █████╗ ██████╗  ██████╗ ██████╗ ██████╗ ██╗   ██╗
-████╗ ████║██║████╗  ██║██║██╔════╝╚══██╔══╝██╔══██╗██╔══██╗██╔═══██╗██╔══██╗██══██╗╚██╗ ██╔╝
-██╔████╔██║██║██╔██╗ ██║██║███████╗   ██║   ███████║██████╔╝██║   ██║██████╔╝██████╔╝ ╚████╔╝
-██║╚██╔╝██║██║██║╚██╗██║██║╚════██║   ██║   ██╔══██║██╔══██╗██║   ██║██══██╗██══██╗  ╚██╔╝
-██║ ╚═╝ ██║██║██║ ╚████║██║███████║   ██║   ██║  ██║██║  ██║╚██████╔╝██║  ██║██║  ██║   ██║
-╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝╚═╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═════╝ ╚═════╝ ╚═════╝ ╚═════╝   ╚═╝
-```
+![Malicious Hash Threat Intelligence Feed](assets/banner.svg)
 
-# 🟣 Malicious Hash Threat Intelligence Feed
-### Curated collection of malicious file hashes (MD5 / SHA-1 / SHA-256) for endpoint defense
+</div>
 
 ![Feed Status](https://img.shields.io/badge/Feed-ACTIVE-9b59b6?style=for-the-badge)
 ![SHA256](https://img.shields.io/badge/SHA256-80,644+-9b59b6?style=for-the-badge)
