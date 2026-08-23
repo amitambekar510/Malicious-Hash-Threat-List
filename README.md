@@ -19,7 +19,6 @@
 ![Last Update](https://img.shields.io/github/last-commit/amitambekar510/Malicious-Hash-Threat-List?style=for-the-badge&label=Updated&color=9b59b6)
 ![Auto-Update](https://img.shields.io/badge/Auto_Update-Every_12h-1abc9c?style=for-the-badge&logo=githubactions)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
-![Build](https://img.shields.io/github/actions/workflow/status/amitambekar510/Malicious-Hash-Threat-List/validate.yml?branch=main&label=Validation&style=for-the-badge)
 
 </div>
 
@@ -64,15 +63,15 @@
 ```mermaid
 flowchart TB
     subgraph Sources["🔍 Threat Intelligence Sources"]
-        S1[MalwareBazaar Recent<br/>(Latest 100 samples via API)]
-        S2[MalwareBazaar by Type<br/>(PE executables, DLLs, scripts)]
+        S1[MalwareBazaar Recent\n(Latest 100 samples via API)]
+        S2[MalwareBazaar by Type\n(PE executables, DLLs, scripts)]
     end
 
-    Collect["🤖 Automated Collection<br/>(Every 12h via GitHub Actions)"]
-    Validate["✅ Multi-Source Validation<br/>VT ≥3 detections · MalwareBazaar confirmed"]
-    Dedup["🚫 Zero-Duplicate Guarantee<br/>Bloom Filter + Git History + Cross-Type"]
-    Repos["📦 Partitioned by Type<br/>SHA256: 60K/file · MD5: 3K/file · SHA1: 1K/file"]
-    Deploy["🚀 Direct Tool Integration<br/>CrowdStrike · SentinelOne · FortiGate · Splunk · MDE · ELK · MISP"]
+    Collect["🤖 Automated Collection\n(Every 12h via GitHub Actions)"]
+    Validate["✅ Multi-Source Validation\nVT ≥3 detections · MalwareBazaar confirmed"]
+    Dedup["🚫 Zero-Duplicate Guarantee\nBloom Filter + Git History + Cross-Type"]
+    Repos["📦 Partitioned by Type\nSHA256: 60K/file · MD5: 3K/file · SHA1: 1K/file"]
+    Deploy["🚀 Direct Tool Integration\nCrowdStrike · SentinelOne · FortiGate · Splunk · MDE · ELK · MISP"]
 
     Sources --> Collect --> Validate --> Dedup --> Repos --> Deploy
 
