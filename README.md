@@ -21,11 +21,11 @@
 | Hash Type | Part | RAW URL | Count |
 |-----------|------|---------|-------|
 | **MD5** | Part 1 | `https://raw.githubusercontent.com/amitambekar510/Malicious-Hash-Threat-List/main/Malicious_md5_hashes_aa.txt` | ~3,000 |
-| **MD5** | Part 2 | `https://raw.githubusercontent.com/amitambekar510/Malicious-Hash-Threat-List/main/malicious_md5_hashes_ab.txt` | ~1,134 |
+| **MD5** | Part 2 | `https://raw.githubusercontent.com/amitambekar510/Malicious-Hash-Threat-List/main/malicious_md5_hashes_ab.txt` | ~1,140 |
 | **SHA1** | Part 1 | `https://raw.githubusercontent.com/amitambekar510/Malicious-Hash-Threat-List/main/malicious_SHA1_hashes-aa.txt` | ~627 |
 | **SHA256** | Part 1 | `https://raw.githubusercontent.com/amitambekar510/Malicious-Hash-Threat-List/main/malicious_SHA256_hashes_aa.txt` | ~60,000 |
 | **SHA256** | Part 2 | `https://raw.githubusercontent.com/amitambekar510/Malicious-Hash-Threat-List/main/malicious_SHA256_hashes_ab.txt` | ~60,000 |
-| **SHA256** | Part 3 | `https://raw.githubusercontent.com/amitambekar510/Malicious-Hash-Threat-List/main/malicious_SHA256_hashes_ac.txt` | ~645 |
+| **SHA256** | Part 3 | `https://raw.githubusercontent.com/amitambekar510/Malicious-Hash-Threat-List/main/malicious_SHA256_hashes_ac.txt` | ~646 |
 
 > 💡 **New partition files** are created automatically when a partition reaches its limit (SHA256: 60K, MD5: 3K, SHA1: 1K). Update your tool configs to include all part URLs.
 
