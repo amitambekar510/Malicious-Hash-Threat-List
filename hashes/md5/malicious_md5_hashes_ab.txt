@@ -3,9 +3,9 @@
 # Author        : Amit Ambekar
 # Organization  : Personal Threat Intelligence
 # Created       : 2024-01-01
-# Updated       : 2026-09-30
+# Updated       : 2026-10-05
 # Part          : 02 (max 3000 per file)
-# Count         : 1133
+# Count         : 1140
 # Source        : Multi-source — MalwareBazaar / VirusTotal hunting
 # Category      : Malware (Ransomware, Trojan, Miner, Dropper)
 # License       : MIT
@@ -16,6 +16,13 @@ bcbaa53dffa0965e557319f4f2155088
 bcd51d52063ac1f418e216f3fd1ddfdd
 bcf185f1308ffd9e4249849d206d9d0c
 7DAD78584795AA5C160520CC6ACCF260
+A8842616C9057D5CF6E1FE1FA8C3C160
+34B8828635F88078735799A3C1AC8E28
+D3E06EB34D8EEE7EF92CAC3AD0A20FF5
+C68B6862725777651085650DB34947FC
+9CD514FF2809CE0B993E3B8649E82A94
+824CA1E906CC073EE5B0F3519DF69A8F
+25480DAD40152EF3D0C6D38EECC9BD9B
 bcf49f21c5f7465beee22b2b5770c9a5
 18F61C6D686CFFD131C9FD3F3437064B
 bd01f935103002ccf3a21c9815697c24
